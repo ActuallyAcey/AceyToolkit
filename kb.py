@@ -2,7 +2,9 @@
 
 import keyboard, clipboard
 
-strings = ["What else can I help you with?", "Escrow account info", "Contact information" ,"Book an appointment"]
+ 
+strings = open("lines.txt","r").readlines()
+# print(strings)
 
 pointer = 0
 run = True
